@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/encoded.txt" charset="x-MacCyrillic" />
+    <file url="file://$PROJECT_DIR$/output.txt" charset="x-MacCyrillic" />
+    <file url="file://$PROJECT_DIR$/table.txt" charset="x-MacCyrillic" />
+    <file url="file://$PROJECT_DIR$/test.txt" charset="x-MacCyrillic" />
+  </component>
+</project>

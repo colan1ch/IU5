@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libVecnSet.a CMakeFiles/VecnSet.dir/MyVector.cpp.o CMakeFiles/VecnSet.dir/MySet.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libVecnSet.a

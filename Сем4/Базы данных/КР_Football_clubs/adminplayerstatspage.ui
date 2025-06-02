@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminPlayerStatsPage</class>
+ <widget class="QWidget" name="AdminPlayerStatsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Статистика игроков (Администратор)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="topLayout">
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editButton">
+       <property name="text">
+        <string>Редактировать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exportButton">
+       <property name="text">
+        <string>Экспорт в CSV</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="searchEdit">
+       <property name="placeholderText">
+        <string>Введите имя игрока</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="searchButton">
+       <property name="text">
+        <string>Найти</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="mainLayout">
+     <item>
+      <layout class="QVBoxLayout" name="inputFieldsLayout">
+       <item>
+        <widget class="QLabel" name="playerLabel">
+         <property name="text">
+          <string>Игрок:</string>
+         </property>
+        </widget>
+       </item>
+       <!-- <item>
+        <widget class="QComboBox" name="playerComboBox"/>
+       </item> -->
+       <item>
+       <widget class="QLineEdit" name="playerSearchEdit">
+ <property name="placeholderText">
+  <string>Введите имя игрока</string>
+ </property>
+</widget>
+</item>
+       <item>
+        <widget class="QLabel" name="matchLabel">
+         <property name="text">
+          <string>Матч:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="matchComboBox"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="goalsLabel">
+         <property name="text">
+          <string>Голы:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="goalsEdit"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="assistsLabel">
+         <property name="text">
+          <string>Ассисты:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="assistsEdit"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="minutesPlayedLabel">
+         <property name="text">
+          <string>Минуты:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="minutesPlayedEdit"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="startingLineupCheckBox">
+         <property name="text">
+          <string>В стартовом составе</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="tableView">
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

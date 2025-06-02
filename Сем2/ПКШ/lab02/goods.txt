@@ -1,0 +1,4 @@
+Coca-cola 100 15 drink
+Vodka 1300 111 alcohol
+MacBook 90000 10 laptops
+LogitechG103 1500 155 mouse

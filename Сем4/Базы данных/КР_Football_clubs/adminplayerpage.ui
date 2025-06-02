@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminPlayerPage</class>
+ <widget class="QWidget" name="AdminPlayerPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Игроки (Администратор)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="topLayout">
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editButton">
+       <property name="text">
+        <string>Редактировать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exportButton">
+       <property name="text">
+        <string>Экспорт в CSV</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="searchEdit">
+       <property name="placeholderText">
+        <string>Введите имя игрока</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="searchButton">
+       <property name="text">
+        <string>Найти</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="mainLayout">
+     <item>
+      <layout class="QVBoxLayout" name="inputFieldsLayout">
+       <!-- <item>
+        <widget class="QLabel" name="idLabel">
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="idEdit"/>
+       </item> -->
+       <item> 
+        <widget class="QLabel" name="nameLabel">
+         <property name="text">
+          <string>Имя:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="nameEdit"/>
+       </item>
+       <item>
+ <widget class="QLabel" name="birthLabel">
+  <property name="text">
+   <string>Дата рождения:</string>
+  </property>
+ </widget>
+</item>
+<item>
+ <widget class="QDateEdit" name="birthEdit">
+  <property name="calendarPopup">
+   <bool>true</bool>
+  </property>
+  <property name="displayFormat">
+   <string>yyyy-MM-dd</string>
+  </property>
+ </widget>
+</item>
+       <item>
+        <widget class="QLabel" name="nationLabel">
+         <property name="text">
+          <string>Национальность:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="nationEdit"/>
+       </item>
+       <item>
+ <widget class="QLabel" name="positionLabel">
+  <property name="text">
+   <string>Позиция:</string>
+  </property>
+ </widget>
+</item>
+<item>
+ <widget class="QComboBox" name="positionComboBox">
+  <property name="editable">
+   <bool>false</bool>
+  </property>
+  <item>
+   <property name="text">
+    <string>ВРТ</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЛЗ</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЦЗ</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ПЗ</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЛП</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЦОП</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЦП</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЦАП</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ПП</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ЛВ</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ФРВ</string>
+   </property>
+  </item>
+  <item>
+   <property name="text">
+    <string>ПВ</string>
+   </property>
+  </item>
+ </widget>
+</item>
+       <item>
+        <widget class="QLabel" name="clubLabel">
+         <property name="text">
+          <string>Клуб:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="clubComboBox"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="tableView"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,3 @@
+kniga book
+karta card
+kot cat
