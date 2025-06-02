@@ -4,4 +4,7 @@ cmake-build-debug
 
 *.out
 
-.idea
+**/.idea/
+
+**/.DS_Store/
+
