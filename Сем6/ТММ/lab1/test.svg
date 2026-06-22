@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.0mm"
+   height="52.0mm"
+   viewBox="0 0 74.0 52.0"
+   id="SVGRoot"
+   version="1.1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="test.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     inkscape:document-units="mm"
+     inkscape:zoom="4.2973781"
+     inkscape:cx="82.14311"
+     inkscape:cy="126.47247"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="1440"
+     inkscape:window-height="766"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer5" /><defs
+     id="defs1"><linearGradient
+   id="linearGradient28"
+   inkscape:collect="always"><stop
+     style="stop-color:#1a4f6b;stop-opacity:1;"
+     offset="0"
+     id="stop28" /><stop
+     style="stop-color:#1a4f6b;stop-opacity:0;"
+     offset="1"
+     id="stop29" /></linearGradient><linearGradient
+   id="linearGradient27"
+   x1="0%"
+   y1="0%"
+   x2="0%"
+   y2="100%">
+      <stop
+   offset="0%"
+   style="stop-color:#3f8ab3;stop-opacity:1"
+   id="stop20" />
+      <stop
+   offset="0.49104479"
+   style="stop-color:#7ac6f0;stop-opacity:1"
+   id="stop21" />
+      <stop
+   offset="100%"
+   style="stop-color:#1e5270;stop-opacity:1"
+   id="stop22" />
+    </linearGradient><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="-0.061443726 : 24.279575 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="73.938556 : 24.279575 : 1"
+   inkscape:persp3d-origin="36.938556 : 15.612908 : 1"
+   id="perspective59" /><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="14.132057 : 37.981526 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="91.388574 : 38.04297 : 1"
+   inkscape:persp3d-origin="54.388575 : 29.376303 : 1"
+   id="perspective58" /><linearGradient
+   id="linearGradient17"
+   inkscape:collect="always"><stop
+     style="stop-color:#398733;stop-opacity:0.32170543;"
+     offset="0"
+     id="stop17" /><stop
+     style="stop-color:#4e9f3b;stop-opacity:0;"
+     offset="1"
+     id="stop18" /></linearGradient><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="0 : 26 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="74 : 26 : 1"
+   inkscape:persp3d-origin="37 : 17.333333 : 1"
+   id="perspective16" /><linearGradient
+   id="linearGradient15"
+   inkscape:collect="always"><stop
+     style="stop-color:#000000;stop-opacity:1;"
+     offset="0"
+     id="stop15" /><stop
+     style="stop-color:#000000;stop-opacity:0;"
+     offset="1"
+     id="stop16" /></linearGradient><linearGradient
+   id="linearGradient12"
+   inkscape:collect="always"><stop
+     style="stop-color:#000000;stop-opacity:1;"
+     offset="0"
+     id="stop12" /><stop
+     style="stop-color:#000000;stop-opacity:0;"
+     offset="1"
+     id="stop13" /></linearGradient><linearGradient
+   id="linearGradient10"
+   inkscape:collect="always"><stop
+     style="stop-color:#6da533;stop-opacity:1;"
+     offset="0.56923079"
+     id="stop10" /><stop
+     style="stop-color:#000000;stop-opacity:0;"
+     offset="1"
+     id="stop11" /></linearGradient><linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient10"
+   id="linearGradient11"
+   x1="15.341422"
+   y1="24.466572"
+   x2="69.379204"
+   y2="42.24744"
+   gradientUnits="userSpaceOnUse"
+   spreadMethod="pad" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient12"
+   id="linearGradient13"
+   x1="15.34137"
+   y1="24.466572"
+   x2="63.930651"
+   y2="24.466572"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient15"
+   id="linearGradient16"
+   x1="15.713491"
+   y1="6.7891226"
+   x2="61.31846"
+   y2="6.7891226"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient17"
+   id="linearGradient18"
+   x1="-0.35408382"
+   y1="26.049848"
+   x2="74.347814"
+   y2="26.049848"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(0.20272253)" />
+    <!-- Градиенты для 3D объектов -->
+    <linearGradient
+   id="gradientCube"
+   x1="0%"
+   y1="0%"
+   x2="100%"
+   y2="100%">
+      <stop
+   offset="0%"
+   style="stop-color:#2a7a9c;stop-opacity:1"
+   id="stop1" />
+      <stop
+   offset="50%"
+   style="stop-color:#3fa3d1;stop-opacity:1"
+   id="stop2" />
+      <stop
+   offset="100%"
+   style="stop-color:#1b4f6e;stop-opacity:1"
+   id="stop3" />
+    </linearGradient>
+    <linearGradient
+   id="gradientSphere"
+   x1="38.925"
+   y1="15.925"
+   x2="51.075"
+   y2="28.075"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(-31.776736,17.892307)">
+      <stop
+   offset="0%"
+   style="stop-color:#4e9f3b;stop-opacity:1"
+   id="stop4" />
+      <stop
+   offset="70%"
+   style="stop-color:#6dc45e;stop-opacity:1"
+   id="stop5" />
+      <stop
+   offset="100%"
+   style="stop-color:#2b6e1e;stop-opacity:1"
+   id="stop6" />
+    </linearGradient>
+    <linearGradient
+   id="gradientCylinder"
+   x1="0%"
+   y1="0%"
+   x2="0%"
+   y2="100%">
+      <stop
+   offset="0%"
+   style="stop-color:#3f8ab3;stop-opacity:1"
+   id="stop7" />
+      <stop
+   offset="50%"
+   style="stop-color:#7ac6f0;stop-opacity:1"
+   id="stop8" />
+      <stop
+   offset="100%"
+   style="stop-color:#1e5270;stop-opacity:1"
+   id="stop9" />
+    </linearGradient>
+    <radialGradient
+   id="radialHighlight"
+   cx="42.6"
+   cy="19.6"
+   r="8.3999999"
+   fx="42.6"
+   fy="19.6"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(-31.776736,17.892307)">
+      <stop
+   offset="0%"
+   style="stop-color:#ffffff;stop-opacity:0.6"
+   id="stop14" />
+      <stop
+   offset="100%"
+   style="stop-color:#ffffff;stop-opacity:0"
+   id="stop19" />
+    </radialGradient>
+  <linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient27"
+   id="linearGradient21"
+   x1="34.600761"
+   y1="39.690331"
+   x2="34.600761"
+   y2="45.859812"
+   gradientTransform="matrix(1.6510018,0,0,0.35390631,-35.48977,27.901287)"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#gradientCylinder"
+   id="linearGradient22"
+   x1="54.152025"
+   y1="18.80528"
+   x2="54.152025"
+   y2="28.460845"
+   gradientTransform="matrix(1.0512072,0,0,0.95128721,-35.270937,17.193577)"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#gradientCylinder"
+   id="linearGradient23"
+   x1="34.600761"
+   y1="26.52877"
+   x2="34.600761"
+   y2="32.698251"
+   gradientTransform="matrix(1.6507428,0,0,0.36403575,-35.480006,24.228496)"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#gradientCube"
+   id="linearGradient24"
+   x1="11.925"
+   y1="19.925"
+   x2="20.075"
+   y2="28.075"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="translate(-7.3916314,3.4547842)" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#gradientCube"
+   id="linearGradient25"
+   x1="28.155605"
+   y1="11.223617"
+   x2="36.846043"
+   y2="19.914055"
+   gradientTransform="matrix(0.70767437,0,0,1.4130793,-7.3916314,3.4547842)"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#gradientCube"
+   id="linearGradient26"
+   x1="6.2882713"
+   y1="29.762591"
+   x2="14.0443"
+   y2="37.51862"
+   gradientTransform="matrix(1.8689225,0,0,0.53506766,-7.3916314,3.4547842)"
+   gradientUnits="userSpaceOnUse" /><linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient28"
+   id="linearGradient29"
+   x1="26.729063"
+   y1="48.360825"
+   x2="26.729063"
+   y2="38.211037"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.0031494,0,0,0.61305352,-0.08417921,16.503063)" /></defs><g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Слой 4"
+     style="display:inline"><rect
+       style="opacity:1;fill:url(#linearGradient18);fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.243523"
+       id="rect16"
+       width="74.601898"
+       height="52.302418"
+       x="-0.10136133"
+       y="-0.10136127"
+       inkscape:label="Заливка" /></g><g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Слой 5"><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0048c1;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.9398281"
+       d="m 46.119381,33.956026 6.284397,-5.372147 c 0,0 -4.257172,21.589952 -4.358534,12.061991 -0.101362,-9.527957 6.081678,2.939479 9.325237,-3.851727 3.243561,-6.791206 5.473509,-7.399372 3.142199,-6.993927 -2.331307,0.405445 -11.352461,12.366075 -7.29801,12.061992 4.054451,-0.304086 4.054451,-0.304086 4.054451,-0.304086 0,0 6.284399,-3.344921 3.1422,-3.446283 -3.1422,-0.101361 -6.99393,2.939479 -5.777592,3.649007 1.216334,0.709528 16.217801,-8.311626 5.777592,1.621779"
+       id="path18"
+       inkscape:label="Подпись" /></g><g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Слой 3"
+     style="display:inline">
+    <!-- 3D Куб (изометрический) -->
+    <path
+   style="fill:url(#linearGradient26);stroke:#1a4f6b;stroke-width:0.15;stroke-opacity:1"
+   d="m 4.6083686,23.454784 6.0000004,-4 h 8 l -6,4 z"
+   id="cubeTop" />
+    <path
+   style="fill:url(#linearGradient25);fill-opacity:0.8;stroke:#1a4f6b;stroke-width:0.15;stroke-opacity:1"
+   d="m 12.608369,23.454784 6,-4 v 8 l -6,4 z"
+   id="cubeRight" />
+    <path
+   style="fill:url(#linearGradient24);fill-opacity:0.6;stroke:#1a4f6b;stroke-width:0.15;stroke-opacity:1"
+   d="m 4.6083686,23.454784 v 8 h 8.0000004 v -8 z"
+   id="cubeLeft" />
+    
+    <!-- 3D Сфера с бликом -->
+    <circle
+   cx="13.223264"
+   cy="39.892307"
+   r="6"
+   style="fill:url(#gradientSphere);stroke:#1f6e2a;stroke-width:0.15;stroke-opacity:1"
+   id="circle19" />
+    <circle
+   cx="13.223264"
+   cy="39.892307"
+   r="6"
+   style="opacity:0.7;fill:url(#radialHighlight);stroke:none"
+   id="circle20" />
+    
+    <!-- 3D Цилиндр (верх и боковина) -->
+    <ellipse
+   cx="26.729063"
+   cy="35.008873"
+   rx="5.0168605"
+   ry="1.0780376"
+   style="display:inline;fill:url(#linearGradient23);stroke:#1a4f6b;stroke-width:0.116279;stroke-opacity:1"
+   id="ellipse20" />
+    <path
+   style="fill:url(#linearGradient22);fill-opacity:0.8;stroke:#1a4f6b;stroke-width:0.15;stroke-opacity:1"
+   d="m 21.729063,35.193577 v 8 q 5,2 10,0 v -8 q -5,2 -10,0 z"
+   id="cylinderSide" />
+    <ellipse
+   cx="26.729063"
+   cy="43.039654"
+   rx="5.0176477"
+   ry="1.0480407"
+   style="display:inline;fill:url(#linearGradient21);fill-opacity:0.5;stroke:url(#linearGradient29);stroke-width:0.114495;stroke-dasharray:none;stroke-opacity:1"
+   id="ellipse21" />
+  </g><g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Слой 2"><path
+       style="display:none;fill:none;stroke:#0048c1;stroke-width:0.233381;stroke-opacity:0.939828"
+       d="M 23.205886,28.901616 C 42.949195,16.299985 70.014527,16.519144 70.014527,16.519144"
+       id="path1" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Brush Script MT';-inkscape-font-specification:'Brush Script MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;display:inline;opacity:1;fill:url(#linearGradient11);stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.243523"
+       id="text8"
+       inkscape:label="Девиз"
+       transform="translate(1.1283501,2.872164)"><textPath
+         xlink:href="#path1"
+         id="textPath4"
+         style="fill:url(#linearGradient11)"><tspan
+           id="tspan2"
+           style="fill:url(#linearGradient11)">Лучше начать новое, чем тормошить старое</tspan></textPath></text></g><g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"><text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#4e9f3b;stroke-width:0.264583;fill-opacity:1"
+       x="15.535208"
+       y="5.6922903"
+       id="text1"
+       inkscape:label="ФИО"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583;fill:#4e9f3b;fill-opacity:1"
+         x="15.535208"
+         y="5.6922903">Чернев Николай Андреевич</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583;fill:#4e9f3b;fill-opacity:1"
+         x="15.535208"
+         y="9.6610403"
+         id="tspan4">Студент группы ИУ5-64Б</tspan></text></g></svg>
