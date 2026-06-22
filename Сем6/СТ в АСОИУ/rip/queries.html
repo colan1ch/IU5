@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анализ SQL-запроса</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .analyzer-container{max-width:1200px;margin:0 auto;padding:20px;margin-top:200px}
+        .sql-editor{width:100%;padding:15px;font-family:monospace;font-size:14px;border:1px solid #ddd;border-radius:12px;min-height:200px}
+        .result-area{background:#f8f9fa;border-radius:12px;padding:20px;margin-top:20px}
+        .metric{display:flex;justify-content:space-between;border-bottom:1px solid #eee;padding:10px 0}
+        .bad{color:#ed3f39}
+        .good{color:#2e7d32}
+        .nav-button-active{background:#ed3f39e6}
+        @media (max-width:767px){.analyzer-container{margin-top:160px;padding:10px}}
+    </style>
+</head>
+<body>
+<div class="header-container">
+    <div class="frame-top"></div>
+    <div class="logo-wrapper"><div class="logo">SQL<br>Анализ</div>
+        <div class="header-nav desktop-nav">
+            <a href="index.html" class="nav-button">Главная</a>
+            <a href="queries.html" class="nav-button nav-button-active">Мои запросы</a>
+            <a href="about.html" class="nav-button">О сервисе</a>
+        </div>
+        <div class="mobile-menu-toggle" id="mobileToggle"><div class="burger-line"></div><div class="burger-line"></div><div class="burger-line"></div></div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="mobile-nav-button">Главная</a>
+        <a href="queries.html" class="mobile-nav-button nav-button-active">Мои запросы</a>
+        <a href="about.html" class="mobile-nav-button">О сервисе</a>
+    </div>
+</div>
+
+<div class="analyzer-container">
+    <h1>Анализ SQL-запроса</h1>
+    <textarea id="sqlQuery" class="sql-editor" placeholder="SELECT * FROM users WHERE age > 18">SELECT * FROM orders JOIN customers ON orders.cust_id = customers.id WHERE total > 1000</textarea><br>
+    <button class="search-button" onclick="runAnalysis()">Выполнить анализ</button>
+
+    <div id="analysisResult" class="result-area">
+        <p>Нажмите «Выполнить анализ», чтобы увидеть оценку и рекомендации.</p>
+    </div>
+
+    <div class="cta-section" style="margin-top:40px">
+        <a href="index.html" class="cta-button">← На главную</a>
+        <a href="about.html" class="cta-button" style="background:#333">О сервисе →</a>
+    </div>
+</div>
+
+<script>
+    function runAnalysis() {
+        let sql = document.getElementById('sqlQuery').value;
+        if(!sql.trim()) { alert("Введите SQL-запрос"); return; }
+        let cost = Math.floor(Math.random() * 500 + 50);
+        let rows = Math.floor(Math.random() * 10000 + 100);
+        let fullScan = sql.toUpperCase().includes("SELECT *") && !sql.toUpperCase().includes("WHERE");
+        let recommendations = [];
+
+        if(fullScan) recommendations.push("❌ Полное сканирование таблицы (SELECT * без WHERE). Добавьте условие WHERE.");
+        if(sql.toUpperCase().includes("JOIN") && !sql.toUpperCase().includes("INDEX")) recommendations.push("⚠️ Для JOIN рекомендуется создать индекс по связующему полю.");
+        if(cost > 300) recommendations.push("💰 Высокая стоимость выполнения. Проверьте планы и индексы.");
+        if(rows > 5000) recommendations.push("📊 Возвращается много строк. Рассмотрите LIMIT или пагинацию.");
+        if(recommendations.length === 0) recommendations.push("✅ Запрос выглядит оптимально. Рекомендаций нет.");
+
+        let html = `<div class="metric"><strong>📈 Оценочная стоимость:</strong> <span class="${cost>300?'bad':'good'}">${cost}</span></div>
+                    <div class="metric"><strong>🔢 Оценочное число строк:</strong> ${rows}</div>
+                    <div class="metric"><strong>⚠️ Рекомендации:</strong><br> ${recommendations.join('<br>')}</div>
+                    <div class="metric"><strong>💡 Совет:</strong> Используйте EXPLAIN ANALYZE для реальных метрик.</div>`;
+        document.getElementById('analysisResult').innerHTML = html;
+    }
+    const toggle = document.getElementById('mobileToggle');
+    const nav = document.getElementById('mobileNav');
+    if(toggle) toggle.onclick = () => nav.classList.toggle('mobile-nav-open');
+
+    const stored = localStorage.getItem('sqlToAnalyze');
+    if(stored) { document.getElementById('sqlQuery').value = stored; localStorage.removeItem('sqlToAnalyze'); runAnalysis(); }
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>О сервисе анализа SQL</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-container{max-width:900px;margin:200px auto 40px;padding:20px}
+        .feature-list{list-style:none;padding:0}
+        .feature-list li{padding:12px;border-left:4px solid #ed3f39;margin-bottom:12px;background:#f9f9f9}
+        @media (max-width:767px){.about-container{margin-top:160px;padding:10px}}
+    </style>
+</head>
+<body>
+<div class="header-container">
+    <div class="frame-top"></div>
+    <div class="logo-wrapper"><div class="logo">SQL<br>Анализ</div>
+        <div class="header-nav desktop-nav">
+            <a href="index.html" class="nav-button">Главная</a>
+            <a href="queries.html" class="nav-button">Мои запросы</a>
+            <a href="about.html" class="nav-button nav-button-active">О сервисе</a>
+        </div>
+        <div class="mobile-menu-toggle" id="mobileToggle"><div class="burger-line"></div><div class="burger-line"></div><div class="burger-line"></div></div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="mobile-nav-button">Главная</a>
+        <a href="queries.html" class="mobile-nav-button">Мои запросы</a>
+        <a href="about.html" class="mobile-nav-button nav-button-active">О сервисе</a>
+    </div>
+</div>
+
+<div class="about-container">
+    <h1>Сервис анализа производительности SQL-запросов</h1>
+    <p><strong>Версия 2.0</strong> — для администраторов баз данных и разработчиков.</p>
+    <ul class="feature-list">
+        <li>🔍 Детальный разбор плана выполнения (EXPLAIN)</li>
+        <li>📌 Рекомендации по созданию индексов</li>
+        <li>⚡ Оценка стоимости и количества возвращаемых строк</li>
+        <li>📊 История анализа (сохраняется в браузере)</li>
+        <li>🎨 Современный интерфейс с адаптивным дизайном</li>
+    </ul>
+    <p>Сервис помогает находить «тяжёлые» запросы, избегать full scan и ускорять работу приложений.</p>
+    <div class="cta-section">
+        <a href="queries.html" class="cta-button">Попробовать анализ →</a>
+        <a href="index.html" class="cta-button" style="background:#333">На главную</a>
+    </div>
+</div>
+<script>
+    const toggle = document.getElementById('mobileToggle');
+    const nav = document.getElementById('mobileNav');
+    if(toggle) toggle.onclick = () => nav.classList.toggle('mobile-nav-open');
+</script>
+</body>
+</html>
