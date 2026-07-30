@@ -47,7 +47,7 @@
 ### Базы данных
 
 - [Лабораторные работы и материалы](Сем4/Базы%20данных)
-- [Курсовая работа — FootballClubs](Сем4/Базы%20данных/FootballClubs) — приложение для работы с базой данных футбольных клубов. [Исходный репозиторий](https://github.com/colan1ch/FootballClubs/tree/2af21aac72012a49e869c792db52fc4f7b82b91f)
+- [Курсовая работа — FootballClubs](https://github.com/colan1ch/FootballClubs/tree/2af21aac72012a49e869c792db52fc4f7b82b91f) — приложение для работы с базой данных футбольных клубов.
 
 ### СП — системное программирование
 
@@ -66,7 +66,7 @@
 ### ОАД — Оперативный анализ данных
 
 - [Лабораторные работы, НИРС и рубежный контроль](Сем5/ОАД)
-- [Домашнее задание — affinity-analysis_IU5-54B](Сем5/ОАД/affinity-analysis_IU5-54B) — анализ совместных покупок и взаимосвязей между товарами. [Исходный репозиторий](https://github.com/colan1ch/affinity-analysis_IU5-54B/tree/b7f6f3190b1651e89f9a9b29fef9358c12141d26)
+- [Домашнее задание — affinity-analysis_IU5-54B](https://github.com/colan1ch/affinity-analysis_IU5-54B/tree/b7f6f3190b1651e89f9a9b29fef9358c12141d26) — анализ совместных покупок и взаимосвязей между товарами.
 
 ### РИП — Разработка интернет-приложений
 
@@ -109,7 +109,7 @@
 ### ТММ — Технология мультимедиа
 
 - [Лабораторные работы](Сем6/ТММ)
-- [Практический проект — BackgroundReplacer](Сем6/ТММ/DZ_TMM/BackgroundReplacer) — мобильное приложение для замены фона на изображении. [Исходный репозиторий](https://github.com/colan1ch/BackgroundReplacer/tree/f9b4e20abdb68f28b3ff4a01d3bc2e6fc50ddf56)
+- [Практический проект — BackgroundReplacer](https://github.com/colan1ch/BackgroundReplacer/tree/f9b4e20abdb68f28b3ff4a01d3bc2e6fc50ddf56) — мобильное приложение для замены фона на изображении.
 
 ### ОПЖЦ АСОИУ — Описание процессов жизненного цикла АСОИУ
 
@@ -127,24 +127,6 @@
 
 - [Конспекты и ответы к зачёту](Сем6/Философия)
 
-## Проекты и репозитории
-
-| Дисциплина или работа | Репозиторий |
-|---|---|
-| ОП — virtual_file_system | [GitHub](https://github.com/colan1ch/virtual_file_system/tree/604bec74829251038abf69321b71a53fd80f2112) |
-| ПКШ — TO-DO-List | [GitHub](https://github.com/colan1ch/TO-DO-List/tree/3ace9244397ad3753712bd62e10cfe7f8865f629) |
-| ПИКЯП — PCPL | [GitHub](https://github.com/colan1ch/PCPL/tree/ef2480d6d8a8d0b43e8dc20dacfdd544c608f298) |
-| XML — XML_LW | [GitHub](https://github.com/colan1ch/XML_LW/tree/fa073ffc1f6bdfb5f428d21a798942a9546fcad6) |
-| Базы данных — FootballClubs | [GitHub](https://github.com/colan1ch/FootballClubs/tree/2af21aac72012a49e869c792db52fc4f7b82b91f) |
-| ОАД — affinity-analysis_IU5-54B | [GitHub](https://github.com/colan1ch/affinity-analysis_IU5-54B/tree/b7f6f3190b1651e89f9a9b29fef9358c12141d26) |
-| РИП — sql-analyzer | [GitHub](https://github.com/colan1ch/sql-analyzer/tree/01a806f187f2414e61ea7642b12c0896c3c538fa) |
-| РИП — sql-analyzer-web-service | [GitHub](https://github.com/colan1ch/sql-analyzer-web-service/tree/8a93df97e4f57018d0d2b1bf3d7f5041923235ed) |
-| РИП — sql-analyzer-async-web-service | [GitHub](https://github.com/colan1ch/sql-analyzer-async-web-service/tree/f5679b10da270ce87d5eb43904b207b4d3da7b30) |
-| СТ в АСОИУ — agent_level | [GitHub](https://github.com/colan1ch/agent_level/tree/e9fc577f952c9bca3d2c51fd864cb367e8e519e2) |
-| ТМО — ML_sem6 | [GitHub](https://github.com/colan1ch/ML_sem6/tree/6b5e836b0ef00563b51437acf1270a33f18ef1e0) |
-| ТММ — BackgroundReplacer | [GitHub](https://github.com/colan1ch/BackgroundReplacer/tree/f9b4e20abdb68f28b3ff4a01d3bc2e6fc50ddf56) |
-| ОПЖЦ АСОИУ — OPZHC_ASOIU | [GitHub](https://github.com/colan1ch/OPZHC_ASOIU/tree/5b71b6453aec2244d2af02c8273fcabac94618e3) |
-
 ## Структура репозитория
 
 ```text
@@ -159,7 +141,7 @@ IU5/
 └── README.md
 ```
 
-Каталоги `Сем1`–`Сем6` содержат материалы соответствующих семестров. Файл `.gitmodules` описывает Git-подмодули; проекты, которые были объединены с основной учебной структурой, доступны как обычные каталоги и дополнительно сопровождаются ссылками на исходные репозитории.
+Каталоги `Сем1`–`Сем6` содержат материалы соответствующих семестров. Все самостоятельные проекты, вынесенные в отдельные репозитории, подключены в общей структуре через `.gitmodules` как Git-подмодули.
 
 ## Клонирование
 

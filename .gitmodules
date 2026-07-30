@@ -13,12 +13,6 @@
 [submodule "Сем4/XML"]
 	path = Сем4/XML
 	url = https://github.com/colan1ch/XML_LW.git
-[submodule "Сем4/Базы данных/Курсовая/FootballClubs"]
-	path = Сем4/Базы данных/Курсовая/FootballClubs
-	url = https://github.com/colan1ch/FootballClubs.git
-[submodule "Сем5/ОАД/ДЗ/affinity-analysis_IU5-54B"]
-	path = Сем5/ОАД/ДЗ/affinity-analysis_IU5-54B
-	url = https://github.com/colan1ch/affinity-analysis_IU5-54B.git
 [submodule "Сем5/РИП/frontend/sql-analyzer"]
 	path = Сем5/РИП/frontend/sql-analyzer
 	url = https://github.com/colan1ch/sql-analyzer.git
@@ -31,9 +25,15 @@
 [submodule "Сем6/СТ в АСОИУ/Курсовая/agent_level"]
 	path = Сем6/СТ в АСОИУ/Курсовая/agent_level
 	url = https://github.com/colan1ch/agent_level.git
-[submodule "Сем6/Технология мультимедиа/BackgroundReplacer"]
-	path = Сем6/Технология мультимедиа/BackgroundReplacer
-	url = https://github.com/colan1ch/BackgroundReplacer.git
 [submodule "Сем6/ОПЖЦ АСОИУ"]
 	path = Сем6/ОПЖЦ АСОИУ
 	url = https://github.com/colan1ch/OPZHC_ASOIU.git
+[submodule "Сем4/Базы данных/FootballClubs"]
+	path = Сем4/Базы данных/FootballClubs
+	url = https://github.com/colan1ch/FootballClubs.git
+[submodule "Сем5/ОАД/affinity-analysis_IU5-54B"]
+	path = Сем5/ОАД/affinity-analysis_IU5-54B
+	url = https://github.com/colan1ch/affinity-analysis_IU5-54B.git
+[submodule "Сем6/ТММ/DZ_TMM/BackgroundReplacer"]
+	path = Сем6/ТММ/DZ_TMM/BackgroundReplacer
+	url = https://github.com/colan1ch/BackgroundReplacer.git
