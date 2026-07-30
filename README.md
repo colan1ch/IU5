@@ -2,7 +2,7 @@
 
 Учебные материалы и выполненные работы Чернева Николая Андреевича, студента группы ИУ5-64Б, по программе бакалавриата направления 09.03.01 «Информатика и вычислительная техника» с направленностью «Системы обработки информации и управления».
 
-Репозиторий организован по семестрам. Локальные материалы хранятся непосредственно в соответствующих каталогах, а отдельные проекты подключены как Git-подмодули. Это позволяет переходить из общей структуры бакалавриата в самостоятельные репозитории проектов.
+Репозиторий организован по семестрам. Локальные материалы хранятся непосредственно в соответствующих каталогах, а часть самостоятельных проектов подключена как Git-подмодули. Для проектов, перенесённых в основную структуру, сохранены ссылки на исходные репозитории GitHub.
 
 ## Навигация
 
@@ -34,7 +34,7 @@
 
 - [ПИКЯП](https://github.com/colan1ch/PCPL/tree/ef2480d6d8a8d0b43e8dc20dacfdd544c608f298)
 
-### Модели Данных
+### Модели данных
 
 - [Лабораторные работы и материалы](Сем3/Модели%20данных)
 
@@ -47,81 +47,103 @@
 ### Базы данных
 
 - [Лабораторные работы и материалы](Сем4/Базы%20данных)
-- [Курсовая работа — FootballClubs](https://github.com/colan1ch/FootballClubs/tree/2af21aac72012a49e869c792db52fc4f7b82b91f) — приложение для работы с базой данных футбольных клубов.
+- [Курсовая работа — FootballClubs](Сем4/Базы%20данных/FootballClubs) — приложение для работы с базой данных футбольных клубов. [Исходный репозиторий](https://github.com/colan1ch/FootballClubs/tree/2af21aac72012a49e869c792db52fc4f7b82b91f)
 
-### Дополнительные дисциплины
+### СП — системное программирование
 
-- [СП](Сем4/СП)
-- [СхДУ](Сем4/СхДУ)
-- [Политология](Сем4/Политология)
+- [Лабораторные работы](Сем4/СП) — программы на языке ассемблера, исходные файлы, вспомогательные утилиты и материалы для запуска.
+
+### СхДУ — схемы дискретных устройств
+
+- [Лабораторные работы и отчёты](Сем4/СхДУ) — проектирование цифровых схем, триггеров, счётчиков и устройств управления.
+
+### Политология
+
+- [Материалы дисциплины](Сем4/Политология)
 
 ## Семестр 5
 
 ### ОАД — Оперативный анализ данных
 
 - [Лабораторные работы, НИРС и рубежный контроль](Сем5/ОАД)
-- [Домашнее задание — affinity-analysis_IU5-54B](https://github.com/colan1ch/affinity-analysis_IU5-54B/tree/b7f6f3190b1651e89f9a9b29fef9358c12141d26) — анализ совместных покупок и взаимосвязей между товарами.
+- [Домашнее задание — affinity-analysis_IU5-54B](Сем5/ОАД/affinity-analysis_IU5-54B) — анализ совместных покупок и взаимосвязей между товарами. [Исходный репозиторий](https://github.com/colan1ch/affinity-analysis_IU5-54B/tree/b7f6f3190b1651e89f9a9b29fef9358c12141d26)
 
 ### РИП — Разработка интернет-приложений
 
 - [Общие материалы по РИП](Сем5/РИП)
-- [Frontend — sql-analyzer](Сем5/РИП/frontend/sql-analyzer) · [GitHub](https://github.com/colan1ch/sql-analyzer)
-- [Backend — sql-analyzer-web-service](Сем5/РИП/backend/sql-analyzer-web-service) · [GitHub](https://github.com/colan1ch/sql-analyzer-web-service)
-- [Асинхронный backend — sql-analyzer-async-web-service](Сем5/РИП/backend/sql-analyzer-async-web-service) · [GitHub](https://github.com/colan1ch/sql-analyzer-async-web-service)
+- [Frontend — sql-analyzer](https://github.com/colan1ch/sql-analyzer/tree/01a806f187f2414e61ea7642b12c0896c3c538fa)
+- [Backend — sql-analyzer-web-service](https://github.com/colan1ch/sql-analyzer-web-service/tree/8a93df97e4f57018d0d2b1bf3d7f5041923235ed)
+- [Асинхронный backend — sql-analyzer-async-web-service](https://github.com/colan1ch/sql-analyzer-async-web-service/tree/f5679b10da270ce87d5eb43904b207b4d3da7b30)
 
-### Дополнительные дисциплины
+### Сети — сети и телекоммуникации
 
-- [Сети](Сем5/Сети)
-- [ОС](Сем5/ОС)
-- [ВСАСОИУ](Сем5/ВСАСОИУ)
-- [ТУ](Сем5/ТУ)
-- [Англ](Сем5/Англ)
+- [Лабораторные работы, домашние задания и отчёты](Сем5/Сети)
+
+### ОС — операционные системы
+
+- [Лабораторные работы и отчёты](Сем5/ОС)
+
+### ВСАСОИУ
+
+- [Лабораторные работы](Сем5/ВСАСОИУ) — материалы по вопросам автоматизированных систем обработки информации и управления.
+
+### ТУ — теория управления
+
+- [Материалы дисциплины](Сем5/ТУ)
+
+### Англ — английский язык
+
+- [Учебные материалы](Сем5/Англ)
 
 ## Семестр 6
 
 ### СТ в АСОИУ — Сетевые технологии в АСОИУ
 
 - [Лабораторные работы и материалы](Сем6/СТ%20в%20АСОИУ)
-- [Курсовая работа — agent_level](Сем6/СТ%20в%20АСОИУ/Курсовая/agent_level) — проект по моделированию и анализу сетевого взаимодействия.
-- [Репозиторий agent_level на GitHub](https://github.com/colan1ch/agent_level)
+- [Курсовая работа — agent_level](https://github.com/colan1ch/agent_level/tree/e9fc577f952c9bca3d2c51fd864cb367e8e519e2) — проект по моделированию и анализу сетевого взаимодействия.
 
 ### ТМО — Технологии машинного обучения
 
-- [Все материалы курса и выполненные работы](Сем6/ТМО) · [Репозиторий ML_sem6 на GitHub](https://github.com/colan1ch/ML_sem6)
+- [Все материалы курса и выполненные работы](https://github.com/colan1ch/ML_sem6/tree/6b5e836b0ef00563b51437acf1270a33f18ef1e0)
 
 ### ТММ — Технология мультимедиа
 
-- [Лабораторные работы и домашние задания](Сем6/ТММ)
-- [Практический проект — BackgroundReplacer](Сем6/Технология%20мультимедиа/BackgroundReplacer) — мобильное приложение для замены фона на изображении.
-- [Репозиторий BackgroundReplacer на GitHub](https://github.com/colan1ch/BackgroundReplacer)
+- [Лабораторные работы](Сем6/ТММ)
+- [Практический проект — BackgroundReplacer](Сем6/ТММ/DZ_TMM/BackgroundReplacer) — мобильное приложение для замены фона на изображении. [Исходный репозиторий](https://github.com/colan1ch/BackgroundReplacer/tree/f9b4e20abdb68f28b3ff4a01d3bc2e6fc50ddf56)
 
 ### ОПЖЦ АСОИУ — Описание процессов жизненного цикла АСОИУ
 
-- [Материалы курса и выполненные задания](Сем6/ОПЖЦ%20АСОИУ) · [Репозиторий OPZHC_ASOIU на GitHub](https://github.com/colan1ch/OPZHC_ASOIU)
+- [Материалы курса и выполненные задания](https://github.com/colan1ch/OPZHC_ASOIU/tree/5b71b6453aec2244d2af02c8273fcabac94618e3)
 
-### Дополнительные дисциплины
+### СПО — системное программное обеспечение
 
-- [СПО](Сем6/СПО)
-- [ИО](Сем6/ИО)
-- [Философия](Сем6/Философия)
+- [Материалы дисциплины](Сем6/СПО)
 
-## Подключённые репозитории
+### ИО — информационное обеспечение
+
+- [Материалы дисциплины](Сем6/ИО)
+
+### Философия
+
+- [Конспекты и ответы к зачёту](Сем6/Философия)
+
+## Проекты и репозитории
 
 | Дисциплина или работа | Репозиторий |
 |---|---|
-| ОП — virtual_file_system | [GitHub](https://github.com/colan1ch/virtual_file_system) |
-| ПКШ — TO-DO-List | [GitHub](https://github.com/colan1ch/TO-DO-List) |
-| ПИКЯП — PCPL | [GitHub](https://github.com/colan1ch/PCPL) |
-| XML — XML_LW | [GitHub](https://github.com/colan1ch/XML_LW) |
-| Базы данных — FootballClubs | [GitHub](https://github.com/colan1ch/FootballClubs) |
-| ОАД — affinity-analysis_IU5-54B | [GitHub](https://github.com/colan1ch/affinity-analysis_IU5-54B) |
-| РИП — sql-analyzer | [GitHub](https://github.com/colan1ch/sql-analyzer) |
-| РИП — sql-analyzer-web-service | [GitHub](https://github.com/colan1ch/sql-analyzer-web-service) |
-| РИП — sql-analyzer-async-web-service | [GitHub](https://github.com/colan1ch/sql-analyzer-async-web-service) |
-| СТ в АСОИУ — agent_level | [GitHub](https://github.com/colan1ch/agent_level) |
-| ТМО — ML_sem6 | [GitHub](https://github.com/colan1ch/ML_sem6) |
-| ТММ — BackgroundReplacer | [GitHub](https://github.com/colan1ch/BackgroundReplacer) |
-| ОПЖЦ АСОИУ — OPZHC_ASOIU | [GitHub](https://github.com/colan1ch/OPZHC_ASOIU) |
+| ОП — virtual_file_system | [GitHub](https://github.com/colan1ch/virtual_file_system/tree/604bec74829251038abf69321b71a53fd80f2112) |
+| ПКШ — TO-DO-List | [GitHub](https://github.com/colan1ch/TO-DO-List/tree/3ace9244397ad3753712bd62e10cfe7f8865f629) |
+| ПИКЯП — PCPL | [GitHub](https://github.com/colan1ch/PCPL/tree/ef2480d6d8a8d0b43e8dc20dacfdd544c608f298) |
+| XML — XML_LW | [GitHub](https://github.com/colan1ch/XML_LW/tree/fa073ffc1f6bdfb5f428d21a798942a9546fcad6) |
+| Базы данных — FootballClubs | [GitHub](https://github.com/colan1ch/FootballClubs/tree/2af21aac72012a49e869c792db52fc4f7b82b91f) |
+| ОАД — affinity-analysis_IU5-54B | [GitHub](https://github.com/colan1ch/affinity-analysis_IU5-54B/tree/b7f6f3190b1651e89f9a9b29fef9358c12141d26) |
+| РИП — sql-analyzer | [GitHub](https://github.com/colan1ch/sql-analyzer/tree/01a806f187f2414e61ea7642b12c0896c3c538fa) |
+| РИП — sql-analyzer-web-service | [GitHub](https://github.com/colan1ch/sql-analyzer-web-service/tree/8a93df97e4f57018d0d2b1bf3d7f5041923235ed) |
+| РИП — sql-analyzer-async-web-service | [GitHub](https://github.com/colan1ch/sql-analyzer-async-web-service/tree/f5679b10da270ce87d5eb43904b207b4d3da7b30) |
+| СТ в АСОИУ — agent_level | [GitHub](https://github.com/colan1ch/agent_level/tree/e9fc577f952c9bca3d2c51fd864cb367e8e519e2) |
+| ТМО — ML_sem6 | [GitHub](https://github.com/colan1ch/ML_sem6/tree/6b5e836b0ef00563b51437acf1270a33f18ef1e0) |
+| ТММ — BackgroundReplacer | [GitHub](https://github.com/colan1ch/BackgroundReplacer/tree/f9b4e20abdb68f28b3ff4a01d3bc2e6fc50ddf56) |
+| ОПЖЦ АСОИУ — OPZHC_ASOIU | [GitHub](https://github.com/colan1ch/OPZHC_ASOIU/tree/5b71b6453aec2244d2af02c8273fcabac94618e3) |
 
 ## Структура репозитория
 
@@ -137,7 +159,7 @@ IU5/
 └── README.md
 ```
 
-Каталоги `Сем1`–`Сем6` содержат материалы соответствующих семестров. Файл `.gitmodules` описывает подключённые проекты и их расположение в общей структуре.
+Каталоги `Сем1`–`Сем6` содержат материалы соответствующих семестров. Файл `.gitmodules` описывает Git-подмодули; проекты, которые были объединены с основной учебной структурой, доступны как обычные каталоги и дополнительно сопровождаются ссылками на исходные репозитории.
 
 ## Клонирование
 
